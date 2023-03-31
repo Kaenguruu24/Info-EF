@@ -5,8 +5,8 @@ Ihr findet hier Erklärungen und Aufgaben zu den absoluten Basics vom (objektori
 
 ## **Hinweise zur Verwendung**
 Es handelt sich hier um sogenannte **Markdown-Files**. Wenn ihr dieses Repo also runterladet und offline in eurem Browser verwendet, achtet unbedingt darauf, einen md parser über die Dateien laufen zu lassen, sonst seht ihr anstatt
-![[Pasted image 20230331233921.png]]
+![](Assets/Pasted image 20230331233921.png)
 Nur dieses unleserliche Chaos:
-![[Pasted image 20230331234000.png]]
+![](Assets/Pasted image 20230331234000.png)
 
 Viel Spaß!
