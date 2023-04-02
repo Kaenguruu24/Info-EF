@@ -1,6 +1,6 @@
 Die absoluten Basics anschaulich erklärt
 
-## Tipp: Für ein schöneres Aussehen und Offline-Kompatibilität, ladet euch Obsidian auf euren PC/Laptop herunter: [Obsidian](obsidian.md)
+## Tipp: Für ein schöneres Aussehen und Offline-Kompatibilität, ladet euch Obsidian auf euren PC/Laptop herunter: [Obsidian](https://obsidian.md)
 
 ## Preambel (Sowas wie ne Einleitung)
 Ihr findet hier Erklärungen und Aufgaben zu den absoluten Basics vom (objektorientierten) Programmieren. Weil's im Unterricht in NRW in der EF (G8 also 10te) nur mit Java abgeht (ohne Libs in ner Crap IDE wie Greenfoot oder BlueJ), sind Codebeispiele hier alle in Java.
