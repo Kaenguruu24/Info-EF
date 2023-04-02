@@ -8,6 +8,7 @@ Sind alle Methoden, die in einer Klasse definiert sind, für jedes Objekt dieser
 ### A2 <span style="color:#559933">BlueJ</span>
 #### 2.1 (L1)
 Ordne den beiden Bildern die Begriffe "Klasse" und "Objekt" zu.
+
 ![Klasse](https://user-images.githubusercontent.com/63197149/229370479-1dbca118-50f5-4bc2-a731-736c8ab47f83.png)
 
 ![Objekt](https://user-images.githubusercontent.com/63197149/229370511-54cce52b-6441-4410-a2e6-abd77a0355d0.png)
