@@ -12,3 +12,7 @@ Die Level dienen unter anderem dazu, dem Lerndenden zu signalisieren, welche Auf
 ## Lösungen
 Die Lösungen zu allen im Aufgabenordner gestellten Aufgaben finden sich im Ordner Lösungen.
 Dort sind die Musterlösungen mit ausführlicher Dokumentation angegeben, inklusive Querverweisen.
+### Zwei Lösungsarten
+Es gibt in diesem System zwei Lösungsarten. Diese sind folgendermaßen gekennzeichnet:
+<span style="color:#aaaaff">Mögliche Lösung</span>: Diese Lösung verwendet den erforderten Syntax, muss aber nicht exakt so benutzt werden. Beispiel: "Denke dir eine Methode aus, die mindestens zwei if-Statements verwendet."
+<span style="color:#ffaaaa">LÖSUNG</span>: Diese Lösung stellt die genau verlangte Lösung der Aufgabe dar. Es gibt keine andere Lösung, die aus mehr als syntaktischen Verbesserungen besteht.
