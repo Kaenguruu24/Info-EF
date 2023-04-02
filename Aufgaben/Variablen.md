@@ -11,7 +11,7 @@ Erweitere zusätzlich den Konstruktor um die Daten beim Erstellen einer neuen Kl
 
 Personen-Klasse:
 ```Java
-class Person
+public class Person
 {
 	// Konstruktor
 	public Person()
