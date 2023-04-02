@@ -4,18 +4,28 @@ Tim hat eine Klasse "Person", die er für das Erfassen von Daten der Nutzer sein
 + Alter
 + Adresse
 + Ob die Person Haustierbesitzer ist
-#### 1.1 (L3)
+#### 1.1 (L3)<span style="color:#ffaaaa">LÖSUNG</span>
 Füge die Daten nun als Variablen in der unten stehenden Klasse hinzu und initialisiere sie mit einem angemessenen Startwert.
-#### 1.2 (L3)
+#### 1.2 (L3)<span style="color:#ffaaaa">LÖSUNG</span>
 Erweitere zusätzlich den Konstruktor um die Daten beim Erstellen einer neuen Klasse als Konstruktorparameter zu übergeben.
 
 Personen-Klasse:
 ```Java
-class Person
+public class Person
 {
+	public String name = "";
+	public String adresse = "";
+	public int alter = 0;
+	public boolean hatHaustier = false;
+	
+
 	// Konstruktor
-	public Person()
+	public Person(String pName, String pAdresse, int pAlter, boolean pHatHaustier)
 	{
+		name = pName;
+		adresse = pAdresse;
+		alter = pAlter;
+		hatHaustier = pHatHaustier;
 	}
 	
 	public void sendeNachricht(String Inhalt)
@@ -31,3 +41,4 @@ class Person
 + [[Allgemein/Hinweise zu Aufgaben]]
 + [[Erklärungen/Variablen]]
 + [[Erklärungen/Datentypen]]
++ [[Erklärungen/Klammern]]
