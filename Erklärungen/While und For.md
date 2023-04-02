@@ -1,7 +1,7 @@
 ## Einleitung
 while- und for-Schleifen sind ebenfalls ein essentieller Teil des Programmierens. Sie nehmen die Rolle des dynamischen Skalierens einer oder mehrerer Anweisungen ein und stellen somit eine verständlichere und kompaktere Alternative zu diesem Chaos dar:
 ```Java
-// Sehr schlecht, nie machen, sehr dumm!
+// Sehr schlecht, nie machen!
 fahre();
 fahre();
 fahre();
@@ -10,7 +10,7 @@ fahre();
 fahre();
 fahre();
 
-// Sehr gut, oft machen
+// Sehr gut, oft machen!
 for (int i = 0; i < 7; i++)
 {
 	fahre();
@@ -55,7 +55,18 @@ for (int i = 0; i < 10; i++)
 	fahre();
 }
 ```
-Hier initialisieren wir die Zählvariable **i** mit dem Wert **0** (*int i = 0*), setzen als Bedingung, dass der Wert von **i** kleiner als **10** ist (*i < 10*) und addieren nach Durchlaufen des Code-Blocks immer **1** zu der Zähvariable (*i++* auch *i += 1*).
+Hier initialisieren wir die Zählvariable **i** mit dem Wert **0** (*int i = 0*), setzen als Bedingung, dass der Wert von **i** kleiner als **10** ist (*i < 10*) und addieren nach Durchlaufen des Code-Blocks immer **1** zu der Zähvariable (*i++* auch *i += 1*). Alternativ kann für **10** auch eine bereits initialisierte Variable verwendet werden. Diese könnte dann zum Beispiel als Methodenparameter beim Aufruf der Methode mitgegeben werden. Hier ein Beispiel:
+```Java
+public void fahreNFelder(int anzahlFelder)
+{
+	for (int i = 0; i < anzahlFelder; i++)
+	{
+		fahre();
+	}
+}
+```
+Das Aufrufen dieser Methode mit dem Parameter 5 (``fahreNFelder(5);``) würde das Objekt fünf "Felder fahren" lassen.
+
 Auch hier wollen wir das "Übersetzer-Prinzip" anwenden. Unser Beispielsatz:
 **Für die Variable i, wenn sie kleiner als 15 ist, addiere 1 und fahre jedes mal**
 + 1. Übersetzen (ins Englische)

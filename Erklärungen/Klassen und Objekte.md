@@ -21,7 +21,7 @@ Dieser Vergleich ist etwas ungewöhnlich, aber funktioniert trotzdem recht gut. 
 Im letzten Schritt wollen wir nun zumindest so tun, als würden wir für eine Staubsauger-Roboterfirma die Roboter programmieren. Dafür müssen wir nun zuerst eine Klasse schreiben, die das Verhalten eines solchen Roboters definiert:
 
 ```Java
-class Roboter
+public class Roboter
 {
 	// Ein paar Variablen, die in diesem Kontext unwichtig sind
 	public int botID = 0;
