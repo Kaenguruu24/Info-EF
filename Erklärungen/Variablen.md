@@ -25,7 +25,7 @@ meinAlter = 15;
 ```
 In diesem Beispiel stellt "meinAlter" die Variable dar, der wir den Wert 15 zuweisen. Das selbe funktioniert natürlich auch mit allen anderen Datentypen:
 ```Java
-meinRoboter = new Roboter("Tim", true);
+Roboter meinRoboter = new Roboter("Tim", true);
 ```
 
 ## <span style="color:#5ABA70">Verweise</span>
