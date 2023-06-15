@@ -60,7 +60,7 @@ Das war jetzt viel neuer Syntax auf einmal, deshalb werden wir das ganze jetzt S
 Sichtbarkeit Datentyp[] Bezeichner;
 ```
 
-```**Vordefinierte Länge**
+**Vordefinierte Länge**
 ```Java
 Sichtbarkeit Datentyp[Länge] Bezeichner;
 ```
