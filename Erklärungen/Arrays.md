@@ -101,6 +101,6 @@ for (int i = 0; i < myArray.length; i++)
 }
 ```
 Hier gibt es nun folgendes zu beachten:
-+ **Array.length** gibt die Länge des Arrays zurück. In anderen Programmiersprachen ist es mal eine Funktion, also **Array.length**, oder auch **len(Array)**.
++ **Array.length** gibt die Länge des Arrays zurück. In anderen Programmiersprachen ist es mal eine Funktion, also **Array.length()**, oder auch **len(Array)**.
 + Da die Länge "normal" gezählt ist, müssen wir als Zählbedingung **i < length** verwenden, da wir somit nur bis zum **Index (length - 1)** gehen. Wenn ihr an dieser Stelle **<=** verwendet, wird das Programm mit dem Fehler *Index out of Bounds* crashen. Mehr dazu siehe [[Häufige Fehlermeldungen]]
 + Wir verwenden ``myArray[i]``, um den Eintrag mit dem Index **i** zu verändern.
