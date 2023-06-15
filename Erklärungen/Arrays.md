@@ -66,6 +66,7 @@ Sichtbarkeit Datentyp[Länge] Bezeichner;
 ```
 
 Im nächsten Schritt *könnt* ihr das Array initialisieren, wobei es hier zwei Möglichkeiten gibt:
+
 **Direkte Wertzuweisung**
 ```Java
 private int[] myIntArray = {1, 2, 3, 4, 5};
